@@ -14,10 +14,13 @@ ___
 tar -zxvf CIS_SDK_Linux32_2015_02.tar.gz
 ```
 ```bash
-cp -av ~/CIS_SDK_Linux32_2015_02/SOs/*.so /usr/lib/i386-linux-gnu
+sudo cp -av ~/CIS_SDK_Linux32_2015_02/SOs/*.so /usr/lib/i386-linux-gnu
 ```
 ```bash
-# ~/CIS_SDK_Linux32_2015_02/Demo
+sudo cp -a ~/CIS_SDK_Linux32_2015_02/Demo/CIS_SDK_Lazarus /usr/local/bin/cis_sdk_lazarus
+```
+```bash
+sudo ldconfig
 ```
 ## Análise e instalação das dependências do sistema para o pacote CIS_SDK
 
@@ -136,6 +139,14 @@ apt-get -y -f install
 
 ```bash
 sudo apt-get install libgtk2.0-0:i386
+```
+
+- **Executar o aplicativo:**  
+
+Abra o Terminal (em GUI) execute o comando:  
+
+```bash
+cis_sdk_lazarus
 ```
 ___
 # FIM
