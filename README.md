@@ -1,6 +1,11 @@
 # CIS_SDK_Linux32_2015_02-U1604.4-64
 Instalação de pacotes para dar suporte a execução para o pacote CIS_SDK 32 Bits no sistema 64 Bits  
-Se mesmo assim quiser instalar tudo na mão, ou se der erro em algum pacote, siga os passos a seguir.  
+
+- **DEPENDÊNCIA:**  
+
+**DEVE** clonar o repositório [pdv-multilib-u1604.4-64](https://github.com/elppans/pdv-multilib-u1604.4-64) e executar `install.sh` para ativar o suporte a **MULTILIB** primeiro.   
+
+Se quiser instalar tudo na mão, siga os passos a seguir.  
 ___
 # CIS_SDK_Linux32_2015_02 PDV Ubuntu 16.04 Rev. 4 - 64 Bits
 
